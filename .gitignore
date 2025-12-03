@@ -1,0 +1,16 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Файлы PyCharm
+.idea/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Логи
+*.log
