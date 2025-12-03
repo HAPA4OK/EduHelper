@@ -1,5 +1,6 @@
 import json
 import logging
+import os
 from pathlib import Path
 
 from telegram import (
@@ -19,7 +20,7 @@ from telegram.ext import (
 )
 
 # 👉 ВСТАВЬ СВОЙ ТОКЕН
-BOT_TOKEN = "8451520044:AAE6gcQsi42ccLeHsSNizMTEiXyziouo-NA"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
